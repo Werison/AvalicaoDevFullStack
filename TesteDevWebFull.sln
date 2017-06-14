@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteDevWebFull.Dominio", "TesteDevWebFull.Dominio\TesteDevWebFull.Dominio.csproj", "{3188E157-402B-4C33-996D-EF54FC020452}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domínio", "Domínio", "{46ED4941-EAB5-4EA7-BA43-A5A1209738A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteDevWebFull.Dominio.Teste", "TesteDevWebFull.Dominio.Teste\TesteDevWebFull.Dominio.Teste.csproj", "{A7DB2485-121F-4135-BFEE-08B574B1AC0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteDevWebFull.Dominio.Compartilhado", "TesteDevWebFull.Dominio.Compartilhado\TesteDevWebFull.Dominio.Compartilhado.csproj", "{01D1AAAE-DB3A-4F7C-8D5F-83DF222F753B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3188E157-402B-4C33-996D-EF54FC020452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3188E157-402B-4C33-996D-EF54FC020452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3188E157-402B-4C33-996D-EF54FC020452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3188E157-402B-4C33-996D-EF54FC020452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7DB2485-121F-4135-BFEE-08B574B1AC0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7DB2485-121F-4135-BFEE-08B574B1AC0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7DB2485-121F-4135-BFEE-08B574B1AC0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7DB2485-121F-4135-BFEE-08B574B1AC0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01D1AAAE-DB3A-4F7C-8D5F-83DF222F753B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01D1AAAE-DB3A-4F7C-8D5F-83DF222F753B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01D1AAAE-DB3A-4F7C-8D5F-83DF222F753B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01D1AAAE-DB3A-4F7C-8D5F-83DF222F753B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3188E157-402B-4C33-996D-EF54FC020452} = {46ED4941-EAB5-4EA7-BA43-A5A1209738A3}
+		{A7DB2485-121F-4135-BFEE-08B574B1AC0B} = {46ED4941-EAB5-4EA7-BA43-A5A1209738A3}
+		{01D1AAAE-DB3A-4F7C-8D5F-83DF222F753B} = {46ED4941-EAB5-4EA7-BA43-A5A1209738A3}
+	EndGlobalSection
+EndGlobal
